@@ -1,0 +1,8 @@
+<h1>Services Page</h1>
+{%for i in serviceData%}
+<dev style="border: 1px; border-color: black; ">
+    <h1>{{i.icon}}</h1>
+    <h2>{{i.title}}</h2>
+    <p>{{i.description|safe}}</p>
+</dev>
+{%endfor%}
